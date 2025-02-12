@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+        <div className="App">
+            <Header />
+            <Main />
+            <Footer />
+            {/*Comments in JSX need to be in brackets*/} 
+        </div>
+);
+
+//comments outside of the App don't need brackets
 
 export default App;

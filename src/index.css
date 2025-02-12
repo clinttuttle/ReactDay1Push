@@ -11,3 +11,160 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Global Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #002147; /* Navy Blue */
+  color: #ffffff; /* White */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #cc5500 ; /* White */
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  background-color: #ffffff; /* White */
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #cc5500; /* Burnt Orange */
+  color: #ffffff; /* White */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light Khaki for contrast */
+}
+
+table tr:hover {
+  background-color: #d3d3d3;
+}
+
+/* Form Styling */
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #cc5500; /* Burnt Orange */
+}
+
+form input[type="text"], form input[type="email"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #cc5500; /* Burnt Orange */
+  color: #ffffff; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form input[type="submit"]:hover {
+  background-color: #e67300;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #002147; /* Navy Blue */
+  color: #ffffff; /* White */
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Additional Styling for Image Gallery in index.html */
+img {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Custom Highlight Section Styling */
+h2 {
+  color: #002147; /* Navy Blue */
+}
+
+h3 {
+  color: #cc5500; /* Burnt Orange */
+}
+
+
+.header-red {
+  color: red; /* Burnt Orange */
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: #002147; /* Navy Blue */
+}
+
+
+li {
+  list-style-type: none; 
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
